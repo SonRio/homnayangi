@@ -89,10 +89,15 @@ function Result() {
         </div>
 
         <h1 class="mint text-4xl ">Ăn ngon cùng!!</h1>
-        <ul className="text-left">
-          {mealOne && <li className="text-xl m1"> {mealOne.name} </li>}
-          {mealTwo && <li className="text-xl m2"> {mealTwo.name} </li>}
-          {soup && <li className="text-xl soup"> {soup.name} </li>}
+        <ul
+          className="text-left"
+          style={{
+            fontFamily: "fantasy",
+          }}
+        >
+          {mealOne && <li className="text-2xl m1"> {mealOne.name} </li>}
+          {mealTwo && <li className="text-2xl m2"> {mealTwo.name} </li>}
+          {soup && <li className="text-2xl soup"> {soup.name} </li>}
         </ul>
         <div
           style={{
