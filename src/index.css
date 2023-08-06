@@ -603,7 +603,19 @@ h1 {
     height: 28px;
   }
 }
-
+/* 本体と関係ないスタイル */
+.container {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+}
+.button:not(:last-child) {
+  margin-bottom: 50px;
+}
 ul li {
   width: 200px;
   height: 35px;
