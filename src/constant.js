@@ -6,7 +6,13 @@ export const MORNING = [
     name: "Mì quảng nha",
   },
   {
-    name: "Bành mì thôi",
+    name: "Bánh mì thôi",
+  },
+  {
+    name: "Xôi không?",
+  },
+  {
+    name: "Bánh cuốn nhé",
   },
 ];
 
@@ -15,7 +21,13 @@ export const MAIN = [
     name: "Cá kho",
   },
   {
+    name: "Cá chiên",
+  },
+  {
     name: "Thịt kho",
+  },
+  {
+    name: "Thịt luộc",
   },
   {
     name: "Rau luộc",
@@ -24,13 +36,13 @@ export const MAIN = [
     name: "Trứng chiên",
   },
   {
-    name: "Một xào bất kì",
+    name: "Món xào bất kì",
   },
 ];
 
 export const SOUP = [
   {
-    name: "Một canh bất kì",
+    name: "Canh bất kì",
   },
   {
     name: "Canh thịt",
@@ -39,6 +51,9 @@ export const SOUP = [
     name: "Canh cá",
   },
   {
-    name: "Canh chả ",
+    name: "Canh chả",
+  },
+  {
+    name: "Canh xương",
   },
 ];
