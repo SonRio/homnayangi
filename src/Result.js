@@ -54,7 +54,7 @@ function Result() {
   }, [search]);
   return (
     <div className="flex justify-center items-center App max-sm px-2">
-      <div>
+      <div className="flex flex-col items-center justify-center">
         <div
           style={{
             marginBottom: "50px",
@@ -76,7 +76,7 @@ function Result() {
         <div className="flex justify-center items-center">
           <div
             style={{
-              maxWidth: "240px",
+              maxWidth: "120px",
             }}
           >
             <img
@@ -89,19 +89,52 @@ function Result() {
         </div>
 
         <h1 class="mint text-4xl ">Ăn ngon cùng!!</h1>
-        <ul
-          className="text-left"
-          style={{
-            fontFamily: "fantasy",
-          }}
-        >
-          {mealOne && <li className="text-2xl m1"> {mealOne.name} </li>}
-          {mealTwo && <li className="text-2xl m2"> {mealTwo.name} </li>}
-          {soup && <li className="text-2xl soup"> {soup.name} </li>}
-        </ul>
+        <div className="flex justify-center">
+          <ul
+            className="text-left"
+            style={{
+              fontFamily: "Borel",
+            }}
+          >
+            {mealOne && (
+              <li className="text-xl ">
+                <p
+                  style={{
+                    marginBottom: "-15px",
+                  }}
+                >
+                  {mealOne.name}
+                </p>
+              </li>
+            )}
+            {mealTwo && (
+              <li className="text-xl ">
+                <p
+                  style={{
+                    marginBottom: "-15px",
+                  }}
+                >
+                  {mealTwo.name}
+                </p>
+              </li>
+            )}
+            {soup && (
+              <li className="text-xl ">
+                {" "}
+                <p
+                  style={{
+                    marginBottom: "-15px",
+                  }}
+                >
+                  {soup.name}
+                </p>
+              </li>
+            )}
+          </ul>
+        </div>
         <div
           style={{
-            marginTop: "100px",
+            marginTop: "70px",
           }}
           className="flex justify-center"
         >
