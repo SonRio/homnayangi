@@ -38,6 +38,21 @@ export const MAIN = [
   {
     name: "Món xào bất kì",
   },
+  {
+    name: "Khoai tây xào thịt",
+  },
+  {
+    name: "Cà tím xào nước tương",
+  },
+  {
+    name: "Trứng chiên thịt"
+  },
+  {
+    name: "Cóc lét ram"
+  },
+  {
+    name: "Trứng sốt tương ớt + nước tương"
+  }
 ];
 
 export const SOUP = [
@@ -56,4 +71,10 @@ export const SOUP = [
   {
     name: "Canh xương",
   },
+  {
+    name: "Canh đậu hũ trứng",
+  },
+  {
+    name: "Canh bí đó + thịt bằm"
+  }
 ];

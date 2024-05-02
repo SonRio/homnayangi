@@ -97,7 +97,7 @@ function Result() {
             }}
           >
             {mealOne && (
-              <li className="text-xl ">
+              <li className="text-xl" style={{width: '300px'}}>
                 <p
                   style={{
                     marginBottom: "-15px",
@@ -108,7 +108,7 @@ function Result() {
               </li>
             )}
             {mealTwo && (
-              <li className="text-xl ">
+              <li className="text-xl " style={{width: '300px'}}>
                 <p
                   style={{
                     marginBottom: "-15px",
@@ -119,7 +119,7 @@ function Result() {
               </li>
             )}
             {soup && (
-              <li className="text-xl ">
+              <li className="text-xl " style={{width: '300px'}}>
                 {" "}
                 <p
                   style={{
