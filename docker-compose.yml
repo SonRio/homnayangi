@@ -1,0 +1,11 @@
+version: "3.4"
+services:
+  frontend:
+    container_name: homnayangi
+    build:
+      context: ./
+      dockerfile: "Dockerfile"
+    restart: always
+    image: homnayangi:frontend
+    ports:
+      - "80:80"
