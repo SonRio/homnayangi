@@ -18,7 +18,7 @@ function Home() {
 
   return (
     <div className="App px-2">
-      <h1 class="mint text-4xl">Hôm nay ăn gì?</h1>
+      <h1 class="mint text-4xl">Hôm nay ăn gì ta?</h1>
       <div class="container">
         <a
           href="#"
