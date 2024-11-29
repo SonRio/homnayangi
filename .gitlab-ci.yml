@@ -42,7 +42,6 @@ release-latest:
     - docker push $CI_REGISTRY_IMAGE:latest
 
 deploy:
-  image: ubuntu:lastest
   stage: deploy
   only:
     - main
