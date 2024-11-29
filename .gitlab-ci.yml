@@ -69,7 +69,7 @@ deploy:
     # Thực hiện SSH vào server, login vào Registry, chuyển tới folder project
     # Down project, pull image về, up project và xoá đi image cũ
     - >
-    ssh $SSH_USER@$SSH_SERVER_IP
+      ssh $SSH_USER@$SSH_SERVER_IP
       "docker login -u ${CI_REGISTRY_USER} -p ${CI_REGISTRY_PASSWORD} ${CI_REGISTRY};
       cd ${PATH_TO_PROJECT};
       docker compose down;
