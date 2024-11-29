@@ -70,9 +70,9 @@ deploy:
     # Down project, pull image về, up project và xoá đi image cũ
     - >
       ssh $SSH_USER@$SSH_SERVER_IP
-      "docker login -u ${CI_REGISTRY_USER} -p ${CI_REGISTRY_PASSWORD} ${CI_REGISTRY};
+      "sudo docker login -u ${CI_REGISTRY_USER} -p ${CI_REGISTRY_PASSWORD} ${CI_REGISTRY};
       cd ${PATH_TO_PROJECT};
-      docker compose down;
-      docker pull ${CI_REGISTRY_IMAGE}:latest;
-      docker compose up -d;
-      docker image prune -f;"
+      sudo docker compose down;
+      sudo docker pull ${CI_REGISTRY_IMAGE}:latest;
+      sudo docker compose up -d;
+      sudodocker image prune -f;"
