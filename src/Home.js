@@ -18,76 +18,76 @@ function Home() {
 
   return (
     <div className="App px-2">
-      <h1 class="mint text-4xl">Hôm nay ăn gì ngon ta?</h1>
-      <div class="container">
+      <h1 className="mint text-4xl">Hôm nay ăn gì ngon ta?</h1>
+      <div className="container">
         <a
           href="#"
-          class="button button--piyo"
+          className="button button--piyo"
           onClick={(e) => handleChooseMeal(e, MORNING, "mor")}
         >
-          <div class="button__wrapper">
-            <span class="button__text">Buổi Sáng</span>
+          <div className="button__wrapper">
+            <span className="button__text">Buổi Sáng</span>
           </div>
-          <div class="characterBox">
-            <div class="character wakeup">
-              <div class="character__face"></div>
+          <div className="characterBox">
+            <div className="character wakeup">
+              <div className="character__face"></div>
             </div>
-            <div class="character wakeup">
-              <div class="character__face"></div>
+            <div className="character wakeup">
+              <div className="character__face"></div>
             </div>
-            <div class="character">
-              <div class="character__face"></div>
-            </div>
-          </div>
-        </a>
-
-        <a
-          href="#"
-          class="button button--hoo"
-          onClick={(e) => handleChooseMeal(e, MAIN, "main")}
-        >
-          <div class="button__wrapper">
-            <span class="button__text">Buổi Trưa</span>
-          </div>
-          <div class="characterBox">
-            <div class="character wakeup">
-              <div class="character__face"></div>
-              <div class="charactor__face2"></div>
-              <div class="charactor__body"></div>
-            </div>
-            <div class="character wakeup">
-              <div class="character__face"></div>
-              <div class="charactor__face2"></div>
-              <div class="charactor__body"></div>
-            </div>
-            <div class="character">
-              <div class="character__face"></div>
-              <div class="charactor__face2"></div>
-              <div class="charactor__body"></div>
+            <div className="character">
+              <div className="character__face"></div>
             </div>
           </div>
         </a>
 
         <a
           href="#"
-          class="button button--pen"
+          className="button button--hoo"
           onClick={(e) => handleChooseMeal(e, MAIN, "main")}
         >
-          <div class="button__wrapper">
-            <span class="button__text">Buổi tối</span>
+          <div className="button__wrapper">
+            <span className="button__text">Buổi Trưa</span>
           </div>
-          <div class="characterBox">
-            <div class="character wakeup">
-              <div class="character__face"></div>
-              <div class="charactor__face2"></div>
+          <div className="characterBox">
+            <div className="character wakeup">
+              <div className="character__face"></div>
+              <div className="charactor__face2"></div>
+              <div className="charactor__body"></div>
             </div>
-            <div class="character wakeup">
-              <div class="character__face"></div>
-              <div class="charactor__face2"></div>
+            <div className="character wakeup">
+              <div className="character__face"></div>
+              <div className="charactor__face2"></div>
+              <div className="charactor__body"></div>
             </div>
-            <div class="character">
-              <div class="character__face"></div>
-              <div class="charactor__face2"></div>
+            <div className="character">
+              <div className="character__face"></div>
+              <div className="charactor__face2"></div>
+              <div className="charactor__body"></div>
+            </div>
+          </div>
+        </a>
+
+        <a
+          href="#"
+          className="button button--pen"
+          onClick={(e) => handleChooseMeal(e, MAIN, "main")}
+        >
+          <div className="button__wrapper">
+            <span className="button__text">Buổi tối</span>
+          </div>
+          <div className="characterBox">
+            <div className="character wakeup">
+              <div className="character__face"></div>
+              <div className="charactor__face2"></div>
+            </div>
+            <div className="character wakeup">
+              <div className="character__face"></div>
+              <div className="charactor__face2"></div>
+            </div>
+            <div className="character">
+              <div className="character__face"></div>
+              <div className="charactor__face2"></div>
             </div>
           </div>
         </a>
